@@ -1,0 +1,93 @@
+.buyer-topbar{
+    width: 100%;
+    height: 50px;
+    background-color: whitesmoke;
+    position: sticky;
+    top:0px;
+}
+
+.buyer-topbar-divied{
+    height: 100%;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buyer-Logo{
+    font-weight: bold;
+    font-size: 20px;
+    color: blueviolet;
+}
+
+.buyer-top-right{
+    display:flex;
+    align-items: center;
+}
+
+.buyer-topbar-icons-container{
+    position: relative;
+    cursor: pointer;
+    margin-right: 20px;
+    color: #555;
+}
+
+.buyer-top-icon-bag{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: -5px;
+    right: 0px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+}
+
+.buyer-body-container{
+    display: flex;
+
+}
+
+.buyer-sidebar{
+    flex: 1;
+    background-color: seashell;
+    height: calc(100vh - 50px);
+    position:sticky;
+    top: 50px;
+}
+
+.buyer-sidebar-divided{
+    padding:20px;
+    color:#555;
+}
+
+.buyer-sidebar-title{
+    font-size: 20px;
+    color: rgb(187, 186, 186);
+}
+
+.buyer-sidebar-list{
+    list-style: none;
+    padding: 8px;
+}
+
+.buyer-sidebar-listitem{
+    padding:5px;
+    cursor: pointer;
+    display:flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.buyer-sidebar-listitem.active, .buyer-sidebar-listitem:hover{
+    background-color: rgb(187, 175, 166);
+}
+
+.buyer-other-unit{
+    flex: 4;
+}
+

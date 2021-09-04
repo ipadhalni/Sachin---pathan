@@ -1,0 +1,96 @@
+.home-topbar{
+    width: 100%;
+    height: 50px;
+    background-color: whitesmoke;
+    position: sticky;
+    top:0px;
+}
+
+.home-topbar-divied{
+    height: 100%;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home-Logo{
+    font-weight: bold;
+    font-size: 20px;
+    color: blueviolet;
+}
+
+.home-top-right{
+    display:flex;
+    align-items: center;
+}
+
+.home-topbar-icons-container{
+    position: relative;
+    cursor: pointer;
+    margin-right: 20px;
+    color: #555;
+}
+
+.home-top-icon-bag{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: -5px;
+    right: 0px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+}
+
+.home-body-container{
+    display: flex;
+
+}
+
+.home-sidebar{
+    flex: 1;
+    background-color: seashell;
+    height: calc(100vh - 50px);
+    position:sticky;
+    top: 50px;
+}
+
+.home-sidebar-divided{
+    padding:20px;
+    color:#555;
+}
+
+.home-sidebar-title{
+    font-size: 20px;
+    color: rgb(187, 186, 186);
+}
+
+.home-sidebar-list{
+    list-style: none;
+    padding: 8px;
+}
+
+.home-sidebar-listitem{
+    padding:5px;
+    cursor: pointer;
+    display:flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.home-sidebar-listitem.active, .home-sidebar-listitem:hover{
+    background-color: rgb(187, 175, 166);
+}
+
+.home-other-unit{
+    flex: 4;
+}
+
+.home-center-container{
+    align-items: center;
+}

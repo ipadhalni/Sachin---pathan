@@ -1,0 +1,15 @@
+.shop-list{
+    width: 100%;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.shop-list-item{
+    margin: 15px;
+    padding: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 2px 0px 46px 0px rgba(0,0,0,0.69);
+    -webkit-box-shadow: 2px 0px 46px 0px rgba(0,0,0,0.69);
+    -moz-box-shadow: 2px 0px 46px 0px rgba(0,0,0,0.69);
+}
